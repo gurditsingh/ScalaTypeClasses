@@ -3,9 +3,6 @@ package let.learn.typeclass
 import let.learn.typeclass.TypeClassInstances.Person
 import let.learn.typeclass.TypeClassInterfaces.Json
 
-/**
-  * Created by Bitwise on 7/17/2019.
-  */
 object Driver {
 
 

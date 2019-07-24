@@ -2,9 +2,6 @@ package let.learn.typeclass.TypeClassInstances
 
 import let.learn.typeclass.TypeClassCreation.{JsObject, JsString, JsonWriter}
 
-/**
-  * Created by Bitwise on 7/17/2019.
-  */
 case class Person(name:String,email:String)
 
 object JsonWriterInstances{

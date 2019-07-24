@@ -1,8 +1,6 @@
 package let.learn.typeclass.TypeClassCreation
 
-/**
-  * Created by Bitwise on 7/17/2019.
-  */
+
 trait Json
 case class JsObject(get:Map[String,Json]) extends Json
 case class JsString(get:String) extends Json
